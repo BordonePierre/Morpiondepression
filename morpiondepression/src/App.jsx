@@ -1,11 +1,15 @@
-
+import Croix from "./components/croix"
+import Rond from "./components/rond"
+import Grid from "./components/grid"
 
 function App() {
 
   return (
-   <div className="bg-red-500">
+   <div>
 
-    <h1>ton bouy</h1>
+    <Grid/>
+    <Croix/>
+    <Rond/>
 
    </div>
   )

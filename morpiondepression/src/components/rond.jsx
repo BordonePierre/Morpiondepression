@@ -1,7 +1,7 @@
 function Rond() {
   return (
     <div>
-      <h2 className="text-lg text-green-500">O</h2>
+      <h2 className="text-lg text-red-500">O</h2>
     </div>
   );
 }
